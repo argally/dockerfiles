@@ -56,7 +56,7 @@ RUN set -x && \
     pip install python-keyczar docker-py && \
     \
     echo "==> Adding F5 dependency..."  && \
-    pip install -r /app/requirements.txt&& \
+    pip install -r /app/requirements.txt && \
     \
     echo "==> Installing Ansible..."  && \
     pip install ansible==${ANSIBLE_VERSION} && \
