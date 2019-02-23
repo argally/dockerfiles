@@ -1,3 +1,16 @@
+# Add following to your bash profile 
+# f5_runbook ()
+# {
+#  docker run --rm -it \
+#        -v ${PWD}:/ansible/playbooks \
+#        -v ${HOME}/.aws/credentials:/root/.aws/credentials:ro \
+#        -e AWS_DEFAULT_PROFILE="$1" \
+#        ansible-playbook "${@:2}"
+# }
+
+# To Run this with external ansible playbook example
+# f5_runbook <AWS_PROFILE_NAME> playbook.yaml -i myinventory --vault-password-file  vault_pass.txt --extra-vars "env=prod" --tags=prod
+
 FROM alpine:3.7
 
 ENV ANSIBLE_VERSION 2.7.4
