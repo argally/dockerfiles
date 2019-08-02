@@ -1,0 +1,7 @@
+GitPython==2.1.11
+PyGithub==1.43.7
+prettytable==0.7.2
+cryptography==2.5
+pycrypto
+pynacl
+ansible==2.7.4
