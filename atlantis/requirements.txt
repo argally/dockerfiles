@@ -1,7 +1,7 @@
 GitPython==2.1.11
 PyGithub==1.43.7
 prettytable==0.7.2
-cryptography==3.2
+cryptography==41.0.3
 pycrypto
 pynacl
 ansible==4.2.0
