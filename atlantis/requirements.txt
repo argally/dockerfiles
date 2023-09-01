@@ -4,4 +4,4 @@ prettytable==0.7.2
 cryptography==3.2
 pycrypto
 pynacl
-ansible==2.7.4
+ansible==4.2.0
